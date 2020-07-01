@@ -1,5 +1,5 @@
 (ns escher.core
-  (require [quil.core :as q])
+  (:require [quil.core :as q])
   (:gen-class))
 
 (def width 600)
@@ -187,7 +187,7 @@
     ;;        george))
 
     ; Needs image-painter
-    ;; (bruce frame1)
+    (bruce frame1)
     ;; (bruce frame2)
     ;; (draw (beside george bruce))
     ;; (draw (corner-split bruce 4))
